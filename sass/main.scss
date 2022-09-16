@@ -4,6 +4,12 @@
 @import"./base/common";
 @import"./base/section";
 @import"./base/container";
+@import"./base/body";
 
-@import"./components/modal-btn";
+@import"./components/modal-window";
 @import"./components/buttons";
+@import"./components/address";
+@import"./components/card-set";
+@import"./components/overlay";
+
+@import"./layout/header";

@@ -1,0 +1,25 @@
+.header {
+  font-weight: 500;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  border-bottom: 1px solid var(--border);
+
+      &-container {
+      display: flex;
+      align-items: center;
+
+      &-contacts {
+          display: flex;
+          align-items: center;
+          margin-left: auto;
+          gap: 30px;
+        }
+}
+
+
+.header-list {
+  display: flex;
+  margin-right: auto;
+  gap: 50px; 
+
+  }
