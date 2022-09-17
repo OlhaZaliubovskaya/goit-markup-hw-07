@@ -7,6 +7,7 @@
       &-container {
       display: flex;
       align-items: center;
+    }
 
       &-contacts {
           display: flex;
@@ -16,10 +17,8 @@
         }
 }
 
-
 .header-list {
   display: flex;
   margin-right: auto;
-  gap: 50px; 
-
-  }
+  gap: 50px;
+}
