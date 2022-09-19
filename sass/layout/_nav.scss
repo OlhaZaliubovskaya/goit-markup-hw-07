@@ -2,15 +2,15 @@
     display: flex;
     color: var(--text-color-main);
 }
-.nav-link {
+.nav__link {
     display: flex;
     align-items: center;
     padding-top: 32px;
     padding-bottom: 32px;
     transition: color var(--transition);
 
-    &-link:hover,
-    &-link:focus {
+    &:hover,
+    &:focus {
             color: var(--text-link-act);
             fill: var(--text-link-act);
         }

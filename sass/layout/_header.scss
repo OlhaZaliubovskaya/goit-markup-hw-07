@@ -4,12 +4,12 @@
   letter-spacing: 0.02em;
   border-bottom: 1px solid var(--border);
 
-      &-container {
+      &__container {
       display: flex;
       align-items: center;
     }
 
-      &-contacts {
+      &__contacts {
           display: flex;
           align-items: center;
           margin-left: auto;
@@ -17,7 +17,7 @@
         }
 }
 
-.header-list {
+.header__list {
   display: flex;
   margin-right: auto;
   gap: 50px;
@@ -26,18 +26,19 @@
   margin-right: 93px;
 }
 
-.logo-header {
+.logo--header {
   color: var(--logo-color);
 
-}.contacts-link {
+}
+.contacts-link {
   display: flex;
   align-items: center;
   padding-top: 32px;
   padding-bottom: 32px;
   transition: color var(--transition);
 
-  &-link:hover,
-  &-link:focus {
+  &:hover,
+  &:focus {
       color: var(--text-link-act);
       fill: var(--text-link-act);
     }
