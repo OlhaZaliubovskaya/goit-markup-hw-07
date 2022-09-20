@@ -1,7 +1,7 @@
 .about {
     padding-top: 0;
-      &-list {--card-item: 3; }
-      &-title {
+      &__list {--card-item: 3; }
+      &__title {
             position: absolute;
             bottom: 0;
             text-align: center;
@@ -17,6 +17,6 @@
         }
 }
 
-.about-list .card-item {
+.about__list .card-item {
     position: relative;
 }

@@ -1,30 +1,24 @@
-.logo {
-    display: block;
-    margin-bottom: 20px;
-    &-footer {
-            color: var(--text-title);
-        }
-}
 .footer {
     padding-top: 60px;
     padding-bottom: 60px;
     background-color: #2f303a;
 
-    &-address {
+    &__address {
         margin-right: 70px;
     }
 
-    &-box {
+    &__box {
         display: flex;
         align-items: baseline;
     }
 }
 
-.footer-icon {
+.footer__icon {
     fill: var(--text-title);
+    
 }
 
-.footer-title {
+.footer__title {
     font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
@@ -38,6 +32,15 @@
     color: var(--text-link-act);
     fill: var(--text-link-act);
 }
-.footer-content:last-child {
+.footer__content:last-child {
     margin-left: auto;
+}
+
+.logo-footer {
+    color: var(--text-title);
+}
+
+.footer .logo {
+    display: block;
+    margin-bottom: 20px;
 }

@@ -1,7 +1,7 @@
-.portfolio-list {
+.portfolio__list {
   --card-item: 3;
 } 
- .portfolio-link {
+ .portfolio__link {
   display: block;
   transition: box-shadow var(--transition);
 
@@ -11,18 +11,18 @@
             1px 4px 6px rgba(0, 0, 0, 0.16);
     }
 }
-       .portfolio-link:hover .overlay-text,
-       .portfolio-link:focus .overlay-text {
+       .portfolio__link:hover .overlay-text,
+       .portfolio__link:focus .overlay-text {
         transform: translateY(0%);
         } 
 
-.portfolio-filter {
+.portfolio__filter {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
   gap: 8px;
 }
-.portfolio-title {
+.portfolio__title {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
@@ -30,11 +30,11 @@
   margin-bottom: 4px;
   color: var(--text-color-main);
 }
-.portfolio-text {
+.portfolio__text {
   font-size: 16px;
   line-height: 1.88;
 }
-.portfolio-block {
+.portfolio__block {
   border: 1px solid var(--border-work);
   padding: 20px 24px;
 } 

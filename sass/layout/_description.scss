@@ -1,9 +1,9 @@
-.description-list {
+.description__list {
     display: flex;
     gap: 30px;
 }
 
-.description-box {
+.description__box {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -12,7 +12,7 @@
     background-color: var(--bgcolor-team);
     border-radius: 4px;
 }
-.description-item {
+.description__item {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;

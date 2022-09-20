@@ -1,4 +1,4 @@
-.client-link {
+.client__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -13,9 +13,9 @@
         }
 }
 
-.client-icon {
+.client__icon {
     fill: currentColor;
 }
-.client-list {
+.client__list {
     --card-item: 6;
 }
